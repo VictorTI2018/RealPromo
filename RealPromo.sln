@@ -9,9 +9,24 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "core", "core", "{88CA992F-D
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ports", "ports", "{2C1969A7-1DEF-4248-977C-E258093E989A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RealPromo.API", "ports\RealPromo.API\RealPromo.API.csproj", "{6A6872FE-C97F-4946-AB9E-7FE8BC06AEDF}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6A6872FE-C97F-4946-AB9E-7FE8BC06AEDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A6872FE-C97F-4946-AB9E-7FE8BC06AEDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A6872FE-C97F-4946-AB9E-7FE8BC06AEDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A6872FE-C97F-4946-AB9E-7FE8BC06AEDF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6A6872FE-C97F-4946-AB9E-7FE8BC06AEDF} = {2C1969A7-1DEF-4248-977C-E258093E989A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {644EE2C4-EC50-4CC8-B6E1-78932047334C}
